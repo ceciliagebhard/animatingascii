@@ -2,6 +2,7 @@ import os
 import time
 
 os.system('clear')
+# PUT INTO THIS LIST THE TXT FILES THAT CONTAINS THE FRAMES TO BE USED FOR THE ANIMATION
 filenames = ["messi02.txt", "messi03.txt", "messi04.txt"]
 frames = []
 
