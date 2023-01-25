@@ -9,8 +9,19 @@ frames = []
 for name in filenames:
     with open(name, "r", encoding="utf8") as f:
         frames.append(f.readlines())
+
         
-for frame in frames:
+while frames: # I have added this while loop to keep the frames in a loop. 
+              # You can STOP the ejecution of the animation by closing the TERMINAL or deleting the terminal in VSCode
+              # It doesn't consume any memory from the computer, since the frames are made of txt. 
+
+    
+    for frame in frames:
+        print("".join(frame))
+        time.sleep(1)
+        os.system('clear')        
+
+"""for frame in frames:
     print("".join(frame))
     time.sleep(1)
-    os.system('clear')
+    os.system('clear')"""
