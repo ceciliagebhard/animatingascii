@@ -11,7 +11,7 @@ for name in filenames:
         frames.append(f.readlines())
 
         
-while frames: # I have added this while loop to keep the frames in a loop. 
+while frames: # I have added this while loop to keep the animation in a loop. 
               # You can STOP the ejecution of the animation by closing the TERMINAL or deleting the terminal in VSCode
               # It doesn't consume any memory from the computer, since the frames are made of txt. 
 
